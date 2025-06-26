@@ -21,26 +21,33 @@
   <meta charset="UTF-8">
   <title>Amanah Charity</title>
   <style>
-    body {
-      background: linear-gradient(to right, #e0f7fa, #80deea);
-      color: #222;
-      font-family: sans-serif;
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
     }
 
-    .content {
-      background: rgba(255, 255, 255, 0.95);
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      padding: 40px 20px;
+    }
+
+    .container {
       max-width: 800px;
-      margin: 50px auto;
+      margin: auto;
+      background: #fff;
       padding: 40px;
-      border-radius: 20px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     }
 
     h1 {
       text-align: center;
-      color: #00796b;
+      font-size: 32px;
+      color: #2c3e50;
+      margin-bottom: 20px;
     }
 
     p {
@@ -50,27 +57,41 @@
 
     .btn {
       display: inline-block;
-      margin-top: 20px;
-      padding: 10px 20px;
-      background-color: #00796b;
-      color: white;
+      margin-top: 25px;
+      background-color: #2ecc71;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 8px;
       text-decoration: none;
-      border-radius: 10px;
+      font-weight: bold;
+      transition: background 0.3s ease;
     }
 
     .btn:hover {
-      background-color: #004d40;
+      background-color: #27ae60;
+    }
+
+    .footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
     }
   </style>
 </head>
 <body>
-  <div class="content">
-    <h1>Фонд Amanah Charity</h1>
-    <p>Мы — команда, которая помогает тем, кто оказался в трудной жизненной ситуации. Присоединяйтесь к нам, чтобы вместе делать добро.</p>
+  <div class="container">
+    <h1>Amanah Charity</h1>
+    <p>
+      Мы — благотворительный фонд, который помогает нуждающимся в продуктах, одежде и поддержке.
+      Наша цель — сделать добрые дела доступными каждому.
+    </p>
 
-    <p>📢 <strong>Мы раздаём продукты, одежду и поддержку.</strong></p>
+    <a class="btn" href="https://t.me/yourtelegram" target="_blank">Написать в Telegram</a>
 
-    <a class="btn" href="https://t.me/yourtelegram" target="_blank">Связаться в Telegram</a>
+    <div class="footer">
+      © 2025 Amanah Charity. Все права защищены.
+    </div>
   </div>
 </body>
 </html>

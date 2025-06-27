@@ -6,7 +6,7 @@
 
 body {
   height: 100vh;
-  background: url('img/bg.jpg') no-repeat center center/cover; /* Укажи путь к своей картинке */
+  background: url('img/favicon.jpg') no-repeat center center/cover; /* Укажи путь к своей картинке */
   font-family: Arial, sans-serif;
   color: white;
   display: flex;

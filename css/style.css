@@ -1967,3 +1967,13 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+/* --- Перенос слов для мобильных устройств --- */
+p, h1, h2, h3, h4, .card-text, .lead {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
